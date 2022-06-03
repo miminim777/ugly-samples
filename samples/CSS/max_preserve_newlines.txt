@@ -1,22 +1,21 @@
+.sub_visual { display: flex; width: 100%; height: 510px; background-repeat: no-repeat; background-position: center; background-size: cover; align-items: center; justify-content: center; margin-bottom: -120px; }
 
-.class1 {
+.sub_visual.sub_visual1 { background-image: url(../../images/sub/sub_visual1.png); }
 
+.sub_visual.sub_visual2 { background-image: url(../../images/sub/sub_visual2.png); }
 
+.sub_visual.sub_visual3 { background-image: url(../../images/sub/sub_visual3.png); }
 
+.sub_visual.sub_visual4 { background-image: url(../../images/sub/sub_visual4.png); }
 
+.sub_visual.sub_visual5 { background-image: url(../../images/sub/sub_visual5.png); }
 
+.sub_visual .sub_visual_title { font-weight: bold; font-size: 60px; color: #eee; }
 
+.sub_top_menu { position: relative; }
 
+.sub_top_menu:before { content: ""; display: block; background: #fff; position: absolute; left: 11.45833%; right: 0; top: 0; bottom: 0; }
 
+.sub_top_menu > .inner2 { width: 100%; height: 120px; background-color: #fff; border-bottom: 1px solid #ddd; display: flex; flex-direction: column; justify-content: flex-end; }
 
-
-
-
-
-
-
-  background-color: red;
-
-
-
-}
+.sub_top_menu .sub_top_menu_title { font-weight: bold; font-size: 20px; color: #000; padding-bottom: 30px; }
